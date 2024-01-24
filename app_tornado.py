@@ -3,10 +3,10 @@ import tornado.web
 
 # User data
 users = {
-    'alice': {'Real Name': 'Alice Smith', 'Login': 'alice', 'DOB': 'Jan. 1', 'email': 'alice@example.com', 'image': '/static/alice.jpg'},
-    'bob': {'Real Name': 'Bob Jones', 'Login': 'bob', 'DOB': 'Dec. 31', 'email': 'bob@bob.xyz', 'image': '/static/bob.jpg'},
-    'carol': {'Real Name': 'Carol Ling', 'Login': 'carol', 'DOB': 'Jul. 17', 'email': 'carol@example.com', 'image': '/static/carol.jpg'},
-    'dave': {'Real Name': 'Dave N. Port', 'Login': 'dave', 'DOB': 'Mar. 14', 'email': 'dave@dave.dave', 'image': '/static/dave.jpg'},
+    'alice': {'Real Name': 'Alice Smith', 'Login': 'alice', 'DOB': 'Jan. 1. 2009', 'email': 'alice@example.com', 'image': '/static/alice.jpg'},
+    'bob': {'Real Name': 'Bob Jones', 'Login': 'bob', 'DOB': 'Dec. 31. 2003', 'email': 'bob@bob.xyz', 'image': '/static/bob.jpg'},
+    'carol': {'Real Name': 'Carol Ling', 'Login': 'carol', 'DOB': 'Jul. 17. 2003', 'email': 'carol@example.com', 'image': '/static/carol.jpg'},
+    'dave': {'Real Name': 'Dave N. Port', 'Login': 'dave', 'DOB': 'Mar. 14. 2003', 'email': 'dave@dave.dave', 'image': '/static/dave.jpg'},
 }
 
 class ProfileHandler(tornado.web.RequestHandler):
